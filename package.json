@@ -1,0 +1,26 @@
+{
+	"name": "noauth",
+	"version": "0.0.1",
+	"description": "Authorization for OAuth",
+	"keywords": ["oauth"],
+	"author": {
+		"name": "Alexander Gitovich",
+		"email": "a.gitovich@gmail.com"
+	},
+	"preferGlobal": false,
+	"private": false,
+	"dependencies": {
+		"request": "~2.11.4"
+ 	},
+	"engines": {
+		"node": "~0.8.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:b2arn/auth.git"
+	},
+	"directories": {
+		"lib": "./lib"
+	},
+	"main": "./lib/index"
+}
