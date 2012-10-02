@@ -18,7 +18,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:b2arn/auth.git"
+		"url": "git@github.com:b2arn/noauth.git"
 	},
 	"directories": {
 		"lib": "./lib"
