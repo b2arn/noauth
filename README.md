@@ -5,6 +5,7 @@
 		* token
 		* secret (for oauth 1a)
 		* expires ?
+		* refreshToken ?
 		* additional staff
 	* data
 		* id
@@ -12,8 +13,9 @@
 		* name ?
 		* sex ?
 		* birth ?
-		* photo ?
+		* picture ?
 		* bio ?
+		* username ?
 		* location ?
 		* site ?
 2. appInfo
