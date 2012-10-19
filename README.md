@@ -2,22 +2,22 @@
 
 1. Auth should return:
 	* auth
-		* token
-		* secret (for oauth 1a)
-		* expires ?
-		* refreshToken ?
-		* additional staff
+		* token - str
+		* secret (for oauth 1a is nessesary) - str
+		* expires - int ?
+		* refreshToken - str ?
+		* additional staff - obj ?
 	* data
-		* id
-		* mail ?
-		* name ?
-		* sex ?
-		* birth ?
-		* picture ?
-		* bio ?
-		* username ?
-		* location ?
-		* site ?
+		* id - str
+		* mail - str ?
+		* name - str ?
+		* gender - str ('male' or 'female') ?
+		* birth - (dd-mm-yyyy) ?
+		* picture - str ?
+		* bio - str ?
+		* username - str ?
+		* location - str ?
+		* site str ?
 2. appInfo
 	* id
 	* secret
