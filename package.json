@@ -11,8 +11,7 @@
 	"private": false,
 	"dependencies": {
 		"request": "~2.11.4",
-		"async": "~0.1.22",
-		"authen": "~0.0.1"
+		"async": "~0.1.22"
  	},
 	"engines": {
 		"node": "~0.8.0"
