@@ -2,7 +2,7 @@
 	"name": "noauth",
 	"version": "0.0.1",
 	"description": "Authorization for OAuth",
-	"keywords": ["oauth"],
+	"keywords": ["oauth", "authorization"],
 	"author": {
 		"name": "Alexander Gitovich",
 		"email": "a.gitovich@gmail.com"
@@ -11,7 +11,8 @@
 	"private": false,
 	"dependencies": {
 		"request": "~2.11.4",
-		"async": "~0.1.22"
+		"async": "~0.1.22",
+		"noerror": "~0.0.1"
  	},
 	"engines": {
 		"node": "~0.8.0"
