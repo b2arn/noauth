@@ -1,8 +1,8 @@
 {
 	"name": "noauth",
 	"version": "0.0.1",
-	"description": "Authorization for OAuth",
-	"keywords": ["oauth", "authorization"],
+	"description": "Authorization library for OAuth",
+	"keywords": ["oauth", "authorization", "twitter", "facebook", "google", "tumblr", "flickr", "instagram", "vimeo", "vk", "dropbox", "soundcloud", "github"],
 	"author": {
 		"name": "Alexander Gitovich",
 		"email": "a.gitovich@gmail.com"
@@ -10,10 +10,8 @@
 	"preferGlobal": false,
 	"private": false,
 	"dependencies": {
-		"request": "~2.11.4",
-		"async": "~0.1.22",
-		"noerror": "~0.0.1"
- 	},
+		"async": "~0.1.22"
+	},
 	"engines": {
 		"node": "~0.8.0"
 	},
