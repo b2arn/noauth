@@ -10,10 +10,14 @@
 	"preferGlobal": false,
 	"private": false,
 	"dependencies": {
-		"async": "~0.1.22"
+		"async": "~0.2.2"
+	},
+	"devDependencies": {
+		"chai": "~1.5.0",
+		"mocha": "~1.8.1"
 	},
 	"engines": {
-		"node": "~0.8.0"
+		"node": "~0.8.18"
 	},
 	"repository": {
 		"type": "git",
