@@ -1,0 +1,5 @@
+--require chai
+--reporter spec
+--timeout 120000
+--growl
+--ui bdd
