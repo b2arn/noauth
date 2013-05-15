@@ -27,8 +27,7 @@ var settings = {
             password: '1q2W3e4R5t'
         }
 	},
-	callbackUrl: 'http://localhost:3000/test',
-    twitterCallbackUrl: 'http://dev.noauth.test:3000/test'
+	callbackUrl: 'http://localhost:3000/test'
 };
 
 
