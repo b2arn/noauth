@@ -21,6 +21,7 @@
     "name": "Alexander Gitovich",
     "email": "a.gitovich@gmail.com"
   },
+  "contributors": [{ "name": "Patrick Nolan (http://github.com/patnolanireland", "email": "patnolanireland@gmail.com"}],
   "preferGlobal": false,
   "private": false,
   "dependencies": {
