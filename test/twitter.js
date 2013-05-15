@@ -68,6 +68,21 @@ describe('Twitter', function () {
                 var redirectUrl = window.document.getElementsByClassName('maintain-context').item(0).getAttribute('href');
 
                 twitter.exchangeAuthGrant(redirectUrl, {}, cb);
+            },
+            function (result, cb) {
+                console.log(result);
+
+                twitter.makeApiRequest({
+                    path: '/statuses/retweets_of_me.json',
+                    token: result.auth.token,
+                    secret: result.auth.secret,
+                    params: {
+                        trim_user: true,
+                        include_entities: false,
+                        include_user_entities: false,
+                        count: 100
+                    }
+                }, cb);
             }
         ], function (err, result) {
             expect(result).to.exist;
