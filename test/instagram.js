@@ -26,7 +26,6 @@ describe('Instagram', function () {
 					instagram.createAuthRequestUrl({}, cb);
 				},
 				function (url, cb) {
-					console.log(url);
 					authUrl = url;
 					request({
 						url: url
