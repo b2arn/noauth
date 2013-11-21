@@ -10,7 +10,8 @@
 	"preferGlobal": false,
 	"private": false,
 	"dependencies": {
-		"async": "~0.2.2"
+		"async": "~0.2.2",
+		"request": "~2.27.0"
 	},
 	"devDependencies": {
 		"chai": "~1.5.0",
