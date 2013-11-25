@@ -26,18 +26,21 @@ describe('Instagram', function () {
 					instagram.createAuthRequestUrl({}, cb);
 				},
 				function (url, cb) {
+					console.log(url);
 					authUrl = url;
 					request({
 						url: url
 					}, cb);
 				},
 				function (res, body, cb) {
+					console.log(arguments);
 					savedUrl = res.headers.location;
 					request({
 						url: savedUrl
 					}, cb);
 				},
 				function (res, body, cb) {
+					console.log(arguments);
 					var headers = jar.getCookies(res.headers, {
 						'Referer': savedUrl,
 						'Content-Type': 'application/x-www-form-urlencoded'
